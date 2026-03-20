@@ -21,7 +21,7 @@ A minimal tmux session switcher using [fzf](https://github.com/junegunn/fzf). No
 Add to `~/.tmux.conf`:
 
 ```tmux
-set -g @plugin 'yourusername/tmux-sessx'
+set -g @plugin 'metellica/tmux-sessx'
 ```
 
 Then press `prefix + I` to install.
@@ -29,7 +29,7 @@ Then press `prefix + I` to install.
 ### Manual
 
 ```bash
-git clone https://github.com/yourusername/tmux-sessx ~/.tmux/plugins/tmux-sessx
+git clone https://github.com/metellica/tmux-sessx ~/.tmux/plugins/tmux-sessx
 ```
 
 Add to `~/.tmux.conf` after `run tpm`:
