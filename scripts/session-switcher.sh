@@ -48,6 +48,7 @@ confirm_delete() {
         --no-input \
         --no-sort \
         --info hidden \
+        --bind "j:down,k:up" \
         2>/dev/null
 }
 
